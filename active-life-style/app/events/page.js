@@ -12,7 +12,7 @@ export default function Events() {
       <div className="w-full sm:p-4 px-4 mb-6">
         <h1 className="title-font font-medium text-xl mb-2 text-gray-900">An unique opportunity to cycle in North Eastern part of India. </h1>
         <div className="leading-relaxed">Announcing Bramhaputra Cycling Expedition 4.0 </div>
-        <div className="leading-relaxed text-bold text-amber-900">Date : 17th Dec 2023 to 23rd Dec 2023  </div>
+        <div className="leading-relaxed text-bold text-amber-900">Date : 18th Dec 2023 to 23rd Dec 2023  </div>
       </div>
    
     </div>
