@@ -2,16 +2,12 @@ import React from 'react'
 import MenuItem from './MenuItem'
 import {AiFillHome} from 'react-icons/ai'
 import {FcAbout} from 'react-icons/fc'
-import {AiFillInfoCircle} from 'react-icons/ai' 
-import {MdGroups2} from 'react-icons/md'
-import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {MdEmojiEvents} from 'react-icons/md' ; 
 import {GrUserExpert} from 'react-icons/gr' 
-import {AiFillWallet} from 'react-icons/ai'
-
 import {GrContact} from 'react-icons/gr'
 import {GrCatalogOption} from 'react-icons/gr' 
 
-
+MdEmojiEvents
 
 export default function Header () {
   return (
