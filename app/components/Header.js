@@ -2,12 +2,11 @@ import React from 'react'
 import MenuItem from './MenuItem'
 import {AiFillHome} from 'react-icons/ai'
 import {FcAbout} from 'react-icons/fc'
-import {MdEmojiEvents} from 'react-icons/md' ; 
 import {GrUserExpert} from 'react-icons/gr' 
 import {GrContact} from 'react-icons/gr'
 import {GrCatalogOption} from 'react-icons/gr' 
+import {BsFillCalendarEventFill} from 'react-icons/bs'
 
-MdEmojiEvents
 
 export default function Header () {
   return (
@@ -22,7 +21,7 @@ export default function Header () {
       <div className="sticky top-0 container mx-auto flex  flex-col md:flex-row items-center">
         <nav className=" flex items-center text-base md:ml-auto ">
         <MenuItem title="Home" address="/" Icon={AiFillHome}/> 
-        <MenuItem title="Events" address="/events" Icon={MdEmojiEvents}  /> 
+        <MenuItem title="Events" address="/events" Icon={BsFillCalendarEventFill}  /> 
         <MenuItem title="Mentors" address="/mentors" Icon={GrUserExpert}  /> 
         <MenuItem title="Products" address="/products" Icon={GrCatalogOption}  /> 
         <MenuItem title="Contact-Us" address="/contact-us" Icon={GrContact} /> 
