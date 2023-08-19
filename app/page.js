@@ -190,7 +190,7 @@ export default function Home() {
 
 
 <div
-    className="w-full h-96 mr-4 ml-5 bg-[url('/bcs_hero_2.jpg')] bg-cover bg-center flex justify-center items-center">
+    className="w-auto-full h-96 mr-4 ml-5 bg-[url('/bcs_hero_2.jpg')] bg-cover bg-center flex justify-center items-center">
     <div className="flex flex-col justify-center items-center">
                
         <a className="mt-8 px-12 py-3 bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-xl text-white/70 font-semibold drop-shadow-lg rounded-full"
