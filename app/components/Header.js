@@ -11,7 +11,7 @@ import {BsFillCalendarEventFill} from 'react-icons/bs'
 export default function Header () {
   return (
     <div>
-      
+       
       <header className="sticky text-gray-600 body-font flex">
       <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <img alt="logo" src="/activelife_icon.jpeg" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
