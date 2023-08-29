@@ -12,14 +12,14 @@ export default function Header () {
   return (
     <div>
        
-      <header className="sticky text-gray-600 body-font flex">
+      <header className="sticky top-0 text-gray-600 body-font flex">
       <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <img alt="logo" src="/activelife_icon.jpeg" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
          
           <span className="ml-3 text-xl hidden lg:block">Active Life Style</span>
         </a>
       <div className="sticky top-0 container mx-auto flex  flex-col md:flex-row items-center">
-        <nav className=" flex items-center text-base md:ml-auto ">
+        <nav className=" sticky top-0 flex items-center text-base md:ml-auto ">
         <MenuItem title="Home" address="/" Icon={AiFillHome}/> 
         <MenuItem title="Events" address="/events" Icon={BsFillCalendarEventFill}  /> 
         <MenuItem title="Mentors" address="/mentors" Icon={GrUserExpert}  /> 
