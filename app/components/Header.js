@@ -12,14 +12,14 @@ export default function Header () {
   return (
     <div>
        
-      <header className="sticky top-0 text-gray-600 body-font flex">
+      <header className=" text-gray-600 body-font flex">
       <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <img alt="logo" src="/activelife_icon.jpeg" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
          
           <span className="ml-3 text-xl hidden lg:block">Active Life Style</span>
         </a>
-      <div className="sticky top-0 container mx-auto flex  flex-col md:flex-row items-center">
-        <nav className=" sticky top-0 flex items-center text-base md:ml-auto ">
+      <div className=" container mx-auto flex  flex-col md:flex-row items-center">
+        <nav className=" fixed top-0 flex items-center text-base md:ml-auto text-bold">
         <MenuItem title="Home" address="/" Icon={AiFillHome}/> 
         <MenuItem title="Events" address="/events" Icon={BsFillCalendarEventFill}  /> 
         <MenuItem title="Mentors" address="/mentors" Icon={GrUserExpert}  /> 
@@ -28,11 +28,7 @@ export default function Header () {
         <MenuItem title="About-Us" address="/about" Icon={FcAbout} /> 
         </nav>
         
-        <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 hidden lg:block">Login
-
-          </button>
-        </div>
+       
       </div>
     </header>
 
